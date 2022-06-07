@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *
 {
@@ -60,6 +61,44 @@
     color:black !important;
     margin-right:30px;
 }
+#fruitsvegetables
+{
+    height:100% !important;
+    width:100% !important;
+    overflow:hidden;
+    text-align:center;
+    justify-content: center;
+    align-items:center;
+    margin-top:20px;
+
+}
+.filter
+{
+    height:100%!important;
+    width:23% !important;
+    border:2px solid black !important;
+    margin-left :50px;
+    margin-top:30px;
+    margin-right:10px;
+    overflow:hidden;
+    justify-content: left;
+    align-items:left;
+    text-align:left
+
+}
+
+.products
+{
+    height:100% !important;
+    width:65% !important;
+    margin-top:30px;
+    margin-left:20px;
+    margin-right:10px;
+    overflow:hidden;
+    justify-content: center;
+    align-items:center;
+    text-align:left
+}
 .d-flex
 {
     height:450px !important;
@@ -69,16 +108,12 @@
 {
     height:450px !important;
     width:100% !important;
-    background-size:cover;
-    background-position:center;
 }  
 
 .d-block
 {
     height:450px !important;
     width:100% !important;
-    background-size:cover;
-    background-position:center;
     
 }
 
@@ -86,14 +121,11 @@
 {
     height:450px !important;
     width:100% !important;
-    background-size:cover;
-    background-position:center;
 }
 .d-flex
 {
     height:450px !important;
     width:100% !important;
-    
 }
 
 .rounded
@@ -117,112 +149,41 @@
 }
 #product img
 {
-    width:200px;
-    height:250px
+    width:250px;
+    height:200px
 }
 .card
 {
-    width:200px;
-    height:250px;
+    width:250px;
+    height:450px;
     background:#e5e5e5;
-    border:none !important;
-    box-shadow:15px 20px 20px rgba(0,0,0,.3),
-                inset 4px 4px 10px white;
-    border-radius:20px;
+    border:2px solid rgb(233, 223, 223) !important;
+   
     overflow:hidden;
     justify-content: center;
     align-items:center;
-    margin:1px 5px;
-    transition:.2s
+    margin-left:2px;
+    margin-top:2px;
+    margin-right:0px;
+    margin-bottom:10px
 
 }
 
+.form
+{
+    width:60px !important
+}
 .card:hover{
     box-shadow:inset 5px 5px 10px rgba(0,0,0,.5),
          inset -4px -4px 10px white;
      transition: .2s;
-     transform:scale(1.1)
 
-}
-.b
-{
-    width:200px;
-    height:200px;
-    background:#e5e5e5;
-    border:none !important;
-    box-shadow:15px 20px 20px rgba(0,0,0,.3),
-                inset 4px 4px 10px white;
-    border-radius:20px;
-    overflow:hidden;
-    justify-content: center;
-    align-items:center;
-    margin:1px 100px;
-    transition:.2s
-}
-.s
-{
-    width:290px;
-    height:180px;
-    background:#e5e5e5;
-    border:none !important;
-    box-shadow:15px 20px 20px rgba(0,0,0,.3),
-                inset 4px 4px 10px white;
-    border-radius:20px;
-    overflow:hidden;
-    justify-content: center;
-    align-items:center;
-    margin:1px 20px;
-    transition:.2s
-}
-.c{
-    width:290px;
-    height:200px;
-    background:#e5e5e5;
-    border:none !important;
-    box-shadow:15px 20px 20px rgba(0,0,0,.3),
-                inset 4px 4px 10px white;
-    border-radius:20px;
-    overflow:hidden;
-    justify-content: center;
-    align-items:center;
-    margin:1px 20px;
-    transition:.2s
-}
-.bank
-{
-    width:240px;
-    height:180px;
-    background:#e5e5e5;
-    border:none !important;
-    box-shadow:15px 20px 20px rgba(0,0,0,.3),
-                inset 4px 4px 10px white;
-    border-radius:20px;
-    overflow:hidden;
-    justify-content: center;
-    align-items:center;
-    margin:15px 20px 80px ;
-    transition:.2s
-}
-.beauty
-{
-    width:200px;
-    height:200px;
-    background:#e5e5e5;
-    border:none !important;
-    box-shadow:15px 20px 20px rgba(0,0,0,.3),
-                inset 4px 4px 10px white;
-    border-radius:20px;
-    overflow:hidden;
-    justify-content: center;
-    align-items:center;
-    margin:-8px 100px;
-    transition:.2s
 }
 
 
 .img
 {
-    width:200px;
+    width:300px;
     height:250px;
     margin-right:10px
 }
@@ -230,14 +191,13 @@
 .box
 {
     width:80% !important;
-    margin-top:25px;
-    height:540px !important
+    margin-top:-20px;
+    height:300px;
 
 }
  #contact form{
     display:flex;
     flex-direction:column;
-    
 }
 #contact input{
     margin:10px 0px;
@@ -255,3 +215,7 @@ footer
     text-align:center;
     color:white
 }
+
+
+
+
